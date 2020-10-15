@@ -20,7 +20,7 @@ public class PrestoUdfPlugin implements Plugin {
     public Set<Class<?>> getFunctions() {
         return ImmutableSet.<Class<?>>builder()
                 .add(ScalarFunctions.class)
-                .add(DoubleSumAggregation.class)
+//                .add(DoubleSumAggregation.class)
                 .add(Funnel.class)
                 .add(FunnelMerge.class)
                 .build();
